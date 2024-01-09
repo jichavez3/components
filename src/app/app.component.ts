@@ -18,10 +18,10 @@ import { UsersComponent } from './users/users.component';
     RecipeComponent, 
     ZooComponent, 
     FlexLayoutModule,
-    HttpClientModule,
     UsersComponent
   ],
   templateUrl: './app.component.html',
+  providers: [HttpClientModule],
   styleUrl: './app.component.css'
 })
 export class AppComponent {
